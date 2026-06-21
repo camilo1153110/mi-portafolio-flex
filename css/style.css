@@ -4,14 +4,16 @@
     box-sizing: border-box;
 
 }
-.body {
-    font-family: arial , sans-serif;
-    line-height: 1.6;
-    color: #333;
-
+body {
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2c2c2c;
+  background-color: #fafafa;
 }
 
-.a { 
+
+
+a { 
     text-decoration: none;
     color:inherit;
 
@@ -124,3 +126,8 @@ align-items: center;
     }
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  color: #2c2c2c;
+  background-color: #fafafa;
+}
