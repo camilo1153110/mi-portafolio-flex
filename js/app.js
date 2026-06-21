@@ -1,8 +1,8 @@
 const menuBtn = document.getElementById("menuBtn");
-const menu = document.getElementById("menuBtn");
+const menu = document.getElementById("menu");
 
 menuBtn.addEventListener("click", function () {
-  menu.classList.toggle("activo");
+  menu.classList.toggle("activo"); 
 });
 
 const enlaces = document.querySelectorAll(".nav a");
