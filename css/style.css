@@ -50,6 +50,12 @@ a {
   background-color: var(--color-superficie);
 
 }
+.logo{
+  display:flex;
+  font-size: 120%;
+  font-weight: bold;
+  color: var(--color-acento);
+}
 /* Nav: enlaces en fila con espacio entre ellos */
 .nav {
   display: flex;
@@ -63,6 +69,8 @@ a {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+ 
 /* centrado del hero */
 .hero {
     min-height: 100vh;
@@ -256,7 +264,7 @@ a {
   border: 2px solid rgba(178, 75, 243, 0.2);
   border-radius: 12px;
   padding: 2rem;
-  flex: 1 1 300px;
+  flex: 1 1 40%;
   max-width: 350px;
   transition: all 0.3s ease;
   display: flex;
